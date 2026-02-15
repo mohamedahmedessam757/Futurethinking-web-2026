@@ -24,8 +24,7 @@ In Supabase Dashboard → Authentication → Users:
 
 | Email | Role | Metadata |
 |-------|------|----------|
-| admin@future.com | admin | `{"name": "سارة العبدالله", "role": "admin"}` |
-| khalid@expert.com | consultant | `{"name": "د. خالد الفالح", "role": "consultant"}` |
+| admin@futurethinking.com | admin |  |
 
 ### 4. Deploy Edge Functions
 
