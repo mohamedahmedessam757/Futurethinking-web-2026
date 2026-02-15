@@ -1,0 +1,21 @@
+{
+    "name": "Future Thinking",
+    "short_name": "Future Thinking",
+    "description": "منصة فكر المستقبل للتميز المؤسسي والتدريب",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#06152e",
+    "theme_color": "#06152e",
+    "icons": [
+        {
+            "src": "/symbol-white.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/symbol-white.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

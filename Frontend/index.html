@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/symbol-white.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Future Thinking | فكر المستقبل</title>
+  
+  <!-- Professional Metadata -->
+  <meta property="og:title" content="Future Thinking | فكر المستقبل" />
+  <meta property="og:description" content="منصة فكر المستقبل للتميز المؤسسي والتدريب" />
+  <meta property="og:image" content="/symbol-white.png" />
+  <meta property="og:url" content="https://futurethinking.sa" />
+  <meta name="theme-color" content="#06152e" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@18.3.1",
+      "react/": "https://esm.sh/react@18.3.1/",
+      "react-dom": "https://esm.sh/react-dom@18.3.1",
+      "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+      "framer-motion": "https://esm.sh/framer-motion@11.0.24?external=react,react-dom",
+      "lucide-react": "https://esm.sh/lucide-react@0.363.0?external=react,react-dom",
+      "zod": "https://esm.sh/zod@3.22.4",
+      "react-hook-form": "https://esm.sh/react-hook-form@7.51.0?external=react,react-dom",
+      "@hookform/resolvers/zod": "https://esm.sh/@hookform/resolvers@3.3.4/zod?external=react,react-dom",
+      "@hookform/resolvers/": "https://esm.sh/@hookform/resolvers@^5.2.2/",
+      "next/": "https://esm.sh/next@^16.1.1/",
+      "@vercel/kv": "https://esm.sh/@vercel/kv@^3.0.0",
+      "@upstash/ratelimit": "https://esm.sh/@upstash/ratelimit@^2.0.7",
+      "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+    }
+  }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      if (window.pdfjsLib) {
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
