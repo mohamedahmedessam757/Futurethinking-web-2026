@@ -17,3 +17,5 @@ cd Frontend
 npm run build
 ```
 The output will be in `dist_final`.
+
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/mohamedahmedessam757/Futurethinking-web-2026?utm_source=oss&utm_medium=github&utm_campaign=mohamedahmedessam757%2FFuturethinking-web-2026&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
